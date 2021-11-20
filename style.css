@@ -1,0 +1,1009 @@
+:root {
+    --grey: rgb(102, 102, 102);
+    --dgrey: dimgray;
+    --blu: rgb(62, 135, 207);
+}
+.body{background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.header_bar {
+    background-color: #fff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 1556px;
+    height: 53px;
+    z-index: 100;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.insidebar {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 1128px;
+}
+
+.logoHeader {
+    display: flex;
+    width: 34px;
+    height: 45px;
+}
+
+.search {
+    background: #eef3f8;
+    display: flex;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    align-items: center;
+    border-radius: 2.5px;
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+    height: 11px;
+    width: 251px;
+}
+
+.search input {
+    border: none;
+    box-shadow: none;
+    background: none;
+    color: rgb(102, 102, 102);
+}
+
+.headerIconsDiv {
+    display: flex;
+    margin-left: 179px;
+    align-items: center;
+    height: 51;
+}
+
+.headerIcons {
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 17px;
+    text-align: center;
+}
+
+.headerIcons:hover {
+    color: black;
+}
+
+.headerIcons h3 {
+    font: status-bar;
+}
+
+.headerIconsline {
+    border-left: 2px solid whitesmoke;
+    margin-left: 17px;
+    height: 51;
+    display: flex;
+    align-items: center;
+}
+
+.headerIconshover {
+    margin-left: 20px;
+    height: 51;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    text-align: center;
+}
+
+.headerIconshover:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* header ends here */
+
+
+/* main container */
+
+.container {
+    padding-top: 100px;
+    height: 4200px;
+    width: 100%;
+    background-color: rgb(243, 242, 239);
+}
+
+
+/* profile section */
+
+.profile {
+    height: 330;
+    width: 225;
+    background-color: white;
+    margin-left: 214px;
+    border-radius: 10px
+}
+
+
+/* background image of profile tab */
+
+.backGround img {
+    width: 225;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 56.25px;
+}
+
+
+/* profile pic */
+
+.profilePic {
+    border-bottom: 2px solid whitesmoke;
+    height: 110px;
+}
+
+.profilePic img {
+    border: 2px solid whitesmoke;
+    width: 75px;
+    height: 75px;
+    border-radius: 49.9%;
+    margin-left: 70px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+
+/* name */
+
+.profileName {
+    margin-top: 20px;
+}
+
+.profileName label {
+    color: black;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+.profileName label:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.profileName h3 {
+    color: black;
+    margin-left: 104px;
+}
+
+
+/* connect div */
+
+.connectDiv {
+    height: 60px;
+    border-bottom: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.connectDiv:hover{
+    background-color:whitesmoke;
+}
+.connectText {
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+
+.connectText h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 14px;
+    margin-top: 12;
+    color: grey;
+}
+
+.connectIcon {
+    height: 18px;
+    margin-left: 182px;
+    margin-top: -20px
+}
+
+.connectDiv label {
+    font-size: 13px;
+    margin-left: 14px;
+    color: var(--dgrey);
+    font-weight: bold;
+}
+
+
+/* premium div */
+
+.premiumDiv {
+    height: 47px;
+    border-bottom: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.premiumDiv:hover{
+    background-color: whitesmoke;
+}
+
+
+/* premium gold div */
+
+.premiumGold {
+    height: 11px;
+    width: 11px;
+    margin-left: 20px;
+    background: rgb(248, 199, 126);
+    border-radius: 2px;
+    margin-top: -15px
+}
+
+.premiumDiv h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 14px;
+    margin-top: 14px;
+    color: grey;
+}
+
+.premiumDiv label {
+    font-size: 13px;
+    margin-left: 35px;
+    color: var(--dgrey);
+    font-weight: bold;
+
+}
+
+
+/* save div */
+.saveDiv{
+    cursor: pointer;
+}
+
+.saveDivIcon {
+    margin-left: 13px;
+    color: #666666;
+   
+}
+.saveDiv:hover{
+    background-color: whitesmoke;
+}
+
+.saveDiv h3 {
+    font-size: 13px;
+    margin-left: 44px;
+    color: var(--dgrey);
+    font-weight: bold;
+    margin-top: -18px;
+}
+
+
+/* profile bar ends here */
+
+
+/* profile down div starts here */
+
+.profileDownDiv {
+    background: white;
+    width: 225px;
+    height: 126px;
+    margin-left: 214px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+/* first div */
+
+.profileDownTextDiv {
+    height: 82px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+/* text div */
+
+.profileDownText {
+    color: var(--blu);
+    margin-left: 14px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 106px;
+    cursor: pointer;
+}
+.profileDownText:hover{
+    text-decoration: underline;
+    color: var(--blu);
+}
+
+/* icon div */
+
+.profileDownDivIcon {
+    color: var(--dgrey);
+    margin-left: 188px;
+    margin-top: -45px;
+    width: 24px;
+    cursor: pointer;
+}
+.profile
+.profileDownDivIcon:hover{
+    background-color: whitesmoke;
+}
+
+
+/* bottom div */
+
+.profileDownBottomDiv {
+    color: var(--dgrey);
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 225px;
+    height: 42px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.profileDownBottomDiv label{cursor: pointer;}
+.profileDownBottomDiv label:hover{background-color: whitesmoke;}
+.profileDownBottomDiv:hover{
+    background-color: whitesmoke;
+}
+
+
+/* profile down div ends here */
+
+
+/* share div starts here */
+
+.shareDiv {
+    height: 116px;
+    width: 540px;
+    background: white;
+    border-radius: 10px;
+    margin-top: -468px;
+    margin-left: 465px;
+}
+
+.sharePic img {
+    width: 48px;
+    height: 48px;
+    border-radius: 49.9%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.postBox {
+    width: 452px;
+    height: 46px;
+    border: 3px solid whitesmoke;
+    border-radius: 31px;
+    margin-left: 536px;
+    margin-top: -106px;
+}
+
+.postBox h3 {
+    padding-top: 33px;
+    font-size: 16px;
+    margin-left: 16px;
+    color: var(--dgrey);
+    font-weight: 100;
+    margin-top: -18px
+}
+
+
+/* post icons */
+
+.postIcons {
+    width: 492px;
+    margin-left: 490px;
+    height: 52px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photoIcon {
+    color: rgb(112, 181, 249);
+    cursor: pointer;
+}
+
+.photoIcon:hover {
+    color: var(--grey);
+}
+
+.videoIcon {
+    color: rgb(127, 193, 94);
+    cursor: pointer;
+}
+
+.videoIcon:hover {
+    color: var(--grey);
+}
+
+.eventIcon {
+    color: rgb(231, 163, 62);
+    cursor: pointer;
+}
+
+.eventIcon:hover {
+    color: var(--grey);
+}
+
+.articleIcon {
+    color: rgb(252, 146, 149);
+    cursor: pointer;
+}
+
+.articleIcon:hover {
+    color: var(--grey);
+}
+
+.postIconText {
+    margin-left: 33px;
+    margin-top: -23px;
+    font-size: 16px;
+    color: var(--dgrey);
+    font-weight: 100;
+}
+
+
+/* share div ends here */
+
+
+
+
+
+
+/* sort div starts here */
+
+.sortDiv {
+    width: 540px;
+    margin-left: 465px;
+    margin-top: 8px;
+    height: 16px;
+}
+.sortLineDiv{
+    margin-top: -12px;
+    margin-left: 12px;}
+
+    .sortLineDiv label{
+        color: var(--grey);
+        font-weight: lighter;
+    }
+    
+
+.sortNamediv{
+    display: flex;
+    margin-top: -9px;
+    margin-left: 451px;
+}
+.sortNameDiv label{
+    font-size: 13px;
+    color: var(--grey); 
+}
+.sortNameDiv h3{
+    font-size: 13px; 
+    counter-reset: var(--dgrey);
+
+}
+
+.sortDivIcon{
+    margin-left: 516px;
+    margin-top: -20px;
+}
+
+
+
+/* sort div ends here */
+
+
+
+
+
+
+/* post div starts here */
+
+.postDiv {width: 540px;
+    height: 905px;
+    background-color:white;
+    margin-left: 465px;
+    margin-top: 16px;
+    border-radius: 10px;}
+/* post header starts here */
+
+.postHead{
+    width: 540px;
+    height: 68px;
+}
+
+.postHead img{
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.postHeadName{
+    margin-top: -44px;
+    margin-left: 70px;
+    width: 48px;
+    height: 10px;
+    color: black;
+
+}
+
+
+.postHeadName label{
+    font: size 14px;
+}
+
+.postHeadNum{
+    margin-left: 70px;
+    width: 80px;
+    height: 13px;
+    margin-top: 7px;
+
+}
+.postHeadNum label{
+    font-size: 12px;
+    color: var(--grey);
+}
+.postHeadWeek{
+    margin-left: 70px;
+    width: 15px;
+    height: 10px;
+
+}
+.postHeadWeek label{
+    font-size: 12px;
+    color: var(--grey);
+}
+.postHeadDot {
+    margin-left: 88px;
+    width: 3px;
+    height: 16px;
+    margin-top: -23px;
+
+}
+.postHeadDot label{
+    font-size: 23px;
+    color: var(--grey);
+}
+
+.postHeadSym{
+    margin-left: 95px;
+    margin-top: -3px;
+}
+
+.postHeadSym i{
+    font-size: 15px;
+    color: var(--grey);
+}
+.postHead3Dot{
+    margin-top: -55px;
+    margin-left: 492px;}
+.postHead3Dot i{
+  font-size: 30px;
+  color: var(--grey);
+}
+/* post haed ends here */
+
+/* post text */
+.postContent{
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 6px;}
+.postImage img{
+    width: 540px;
+    height: 675px;
+}
+/* post text ends here */
+
+/* post notification starts here */
+.postNot{width:508px;
+height: 35px;
+margin-left: 16px;
+border-bottom: 2px solid whitesmoke;}
+
+.postNotIcon{
+    width:432.3px;
+height: 18px;}
+
+.postNotIconimg{width: 32px;
+height: 16px;
+padding-top: 8;}
+
+    .postNotIconlabel {
+        cursor: pointer;
+        font-size: 12px;
+        color: var(--grey);
+        margin-left: 46px;
+        margin-top: -11px;
+
+}
+.postNotIconlabel:hover{
+    text-decoration: underline;
+    color: var(--blu);
+}
+.comments{    cursor: pointer;
+    font-size: 13px;
+    color: var(--grey);
+    margin-left: 437px;
+    margin-top: -5px;
+}
+.comments:hover{
+    text-decoration: underline;
+    color: var(--blu);
+}
+/* post notification ends here */
+
+.postReaction{
+    padding-top: 10;
+    width: 540px;
+    height: 60px;
+
+
+}
+.like{
+    height: 48px;
+    width: 118px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    cursor: pointer;
+}
+.like:hover{
+background-color:whitesmoke;
+}
+.comment{
+    height: 48px;
+    width: 155px;
+    margin-left: 127px;
+    margin-top: -48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    cursor: pointer;
+    
+}
+.comment:hover{
+    background-color:whitesmoke;
+    }
+.share{
+    height: 48px;
+    width: 128px;
+    margin-left: 282px;
+    margin-top: -48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    cursor: pointer;
+}
+.share:hover{
+    background-color:whitesmoke;
+    }
+.send{height: 48px;
+    width: 122px;
+    margin-left: 410px;
+    margin-top: -48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    cursor: pointer;}
+
+    .send:hover{
+        background-color:whitesmoke;
+        }
+
+/* post div ends here */
+
+/* sugessions div start here */
+.sugDiv{width: 540px;
+    height: 275px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 465px;
+    margin-top: 10px}
+
+
+.sugFeedDiv{
+    height: 41px;
+    width: 508px;
+    margin-left: 16px;
+    height: 41px;
+    width: 508px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid whitesmoke;
+
+}
+.sugFeedDiv h3{font-size: 14px;
+    color: var(--grey);
+    font-weight: 100;
+    cursor: text;
+
+}  
+
+
+
+.sug3Dot i{font-size: 30px;
+    color: var(--grey);
+    cursor: pointer;
+    border-radius: 49.9%;
+
+}
+
+.sug3Dot i:hover{
+    background-color: whitesmoke;
+}
+
+/* suggestion people */
+.sugPeopleDiv{
+    width: 540px;
+    height: 62px;
+    border-bottom: 2px solid whitesmoke;
+}
+.sugPeopleDiv img{
+    height: 48px;
+    width: 48px;
+    height: 48px;
+    width: 48px;
+    margin-left: 16px;
+    margin-top: 9px;
+    border-radius: 49.9%;
+    cursor: pointer;
+}
+.sugNameDiv
+{margin-top: -41px;
+    margin-left: 71px;
+}
+.sugNameDiv h3{font-size: 12px;
+    color: var(--grey);
+cursor: pointer;}
+
+
+
+.sugNameDiv label{font-size: 14px;
+        color: var(--dgrey);
+    cursor: pointer;}
+.sugNameDiv label:hover{
+
+    text-decoration: underline;
+    color:var(--blu);
+}
+
+.sugIcon{
+    color: var(--blu);
+    width:82px;
+    height: 32px;
+    margin-left: 445px;
+    margin-top: -31px;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}        
+.sugIcon:hover{
+    background-color:#d9e6ff;
+}
+/* discover more */
+
+.sugMoreDiv{
+    color: var(--dgrey);
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 540px;
+    height: 39px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.sugMoreDiv label{
+    cursor: pointer;
+}
+.sugMoreDiv label:hover{
+    background-color: whitesmoke;
+}
+.sugMoreDiv:hover{
+    background-color: whitesmoke;
+}
+
+
+
+/* sugessions div ends here */
+
+
+/* footer div start here */
+.footerDiv{}
+
+/* footer div ends here */
+
+/* news div starts here  */
+
+.newsDiv {
+    width:315px;
+    height: 325;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -4094px;
+    margin-left: 1031px;
+}
+    
+.newsHeadDiv{
+    width: 275px;
+    height: 24px;
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.newsHeadDiv h3{
+    font-size: 18px;
+    color: black;
+    cursor: text;
+}
+.newsIconDiv{
+    height: 16px;
+    width: 16px;
+    margin-left: 279px;
+    margin-top: -23px;
+}
+.newsIconDiv i{
+    color: black;
+}
+/* news content div */
+.newsContentDiv{
+    width: 283px;
+    height: 44px;
+  
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.newsContentDiv li{
+    font-size: 16px;
+    color: black;
+    cursor: text;
+}
+.newsTimeDiv{
+    width: 52px;
+
+}
+.newsTimeDiv label{
+    font-size: 12px;
+    color: var(--grey);
+    cursor: text;
+}
+
+.newsDotDiv{
+    margin-top: -14px;
+    margin-left: 52px;}
+
+.newsDotDiv li{
+    font-size: 12px;
+    color: var(--grey);
+    cursor: text;}
+
+/* showmore div */
+.showMoreDiv{
+    width: 106px;
+    height: 24px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.showMoreDiv:hover{
+    background-color: whitesmoke;
+}
+
+/*news div ends here  */
+
+
+/* ad div  start here */
+
+.adDiv {
+    width: 315px;;
+    height: 250px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 1031px;
+}
+.adDiv img{
+    width: 300px;
+    height: 250px;
+    padding-left: 7.5px;
+}
+
+
+/* ad div  end here */
+
+/* terms div start here */
+.termsDiv{
+    width: 315px;;
+    height: 129px;
+    background-color: rgb(243, 242, 239);;
+    margin-top: 10px;
+    margin-left: 1031px;
+   
+}
+.termsContentDiv{
+    height: 97px;
+    width: 267px;
+    margin-left: 24px;
+    padding-top: 10px;
+    background-color: rgb(243, 242, 239);
+    
+
+}
+.term1{
+    width: 267px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.termText{
+    font-size: 14px;
+    color: var(--dgrey);
+    cursor: pointer;
+}
+.termText:hover{
+    text-decoration: underline;
+    color: var(--blu);
+}
+.termsDiv img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* terms div ends here */
+/* footer div */
+.footerDiv{
+    width: 136px;
+    height: 40px;
+    border: 2px solid var(--blu);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3421px;
+    margin-left: 654px;
+}
+
+.footerDiv label{
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--blu);
+}
