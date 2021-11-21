@@ -3,7 +3,9 @@
     --dgrey: dimgray;
     --blu: rgb(62, 135, 207);
 }
-.body{background-color: whitesmoke;
+
+.body {
+    background-color: whitesmoke;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -190,9 +192,11 @@
     border-bottom: 2px solid whitesmoke;
     cursor: pointer;
 }
-.connectDiv:hover{
-    background-color:whitesmoke;
+
+.connectDiv:hover {
+    background-color: whitesmoke;
 }
+
 .connectText {
     padding-bottom: 5px;
     padding-top: 1px;
@@ -227,7 +231,8 @@
     border-bottom: 2px solid whitesmoke;
     cursor: pointer;
 }
-.premiumDiv:hover{
+
+.premiumDiv:hover {
     background-color: whitesmoke;
 }
 
@@ -256,21 +261,21 @@
     margin-left: 35px;
     color: var(--dgrey);
     font-weight: bold;
-
 }
 
 
 /* save div */
-.saveDiv{
+
+.saveDiv {
     cursor: pointer;
 }
 
 .saveDivIcon {
     margin-left: 13px;
     color: #666666;
-   
 }
-.saveDiv:hover{
+
+.saveDiv:hover {
     background-color: whitesmoke;
 }
 
@@ -318,10 +323,12 @@
     width: 106px;
     cursor: pointer;
 }
-.profileDownText:hover{
+
+.profileDownText:hover {
     text-decoration: underline;
     color: var(--blu);
 }
+
 
 /* icon div */
 
@@ -332,8 +339,8 @@
     width: 24px;
     cursor: pointer;
 }
-.profile
-.profileDownDivIcon:hover{
+
+.profile .profileDownDivIcon:hover {
     background-color: whitesmoke;
 }
 
@@ -353,9 +360,16 @@
     justify-content: space-around;
     cursor: pointer;
 }
-.profileDownBottomDiv label{cursor: pointer;}
-.profileDownBottomDiv label:hover{background-color: whitesmoke;}
-.profileDownBottomDiv:hover{
+
+.profileDownBottomDiv label {
+    cursor: pointer;
+}
+
+.profileDownBottomDiv label:hover {
+    background-color: whitesmoke;
+}
+
+.profileDownBottomDiv:hover {
     background-color: whitesmoke;
 }
 
@@ -463,10 +477,6 @@
 /* share div ends here */
 
 
-
-
-
-
 /* sort div starts here */
 
 .sortDiv {
@@ -475,188 +485,212 @@
     margin-top: 8px;
     height: 16px;
 }
-.sortLineDiv{
+
+.sortLineDiv {
     margin-top: -12px;
-    margin-left: 12px;}
+    margin-left: 12px;
+}
 
-    .sortLineDiv label{
-        color: var(--grey);
-        font-weight: lighter;
-    }
-    
+.sortLineDiv label {
+    color: var(--grey);
+    font-weight: lighter;
+}
 
-.sortNamediv{
+.sortNamediv {
     display: flex;
     margin-top: -9px;
     margin-left: 451px;
 }
-.sortNameDiv label{
+
+.sortNameDiv label {
     font-size: 13px;
-    color: var(--grey); 
+    color: var(--grey);
 }
-.sortNameDiv h3{
-    font-size: 13px; 
+
+.sortNameDiv h3 {
+    font-size: 13px;
     counter-reset: var(--dgrey);
-
 }
 
-.sortDivIcon{
+.sortDivIcon {
     margin-left: 516px;
     margin-top: -20px;
 }
 
 
-
 /* sort div ends here */
-
-
-
-
 
 
 /* post div starts here */
 
-.postDiv {width: 540px;
+.postDiv {
+    width: 540px;
     height: 905px;
-    background-color:white;
+    background-color: white;
     margin-left: 465px;
     margin-top: 16px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
+
+
 /* post header starts here */
 
-.postHead{
+.postHead {
     width: 540px;
     height: 68px;
 }
 
-.postHead img{
+.postHead img {
     width: 48px;
     height: 48px;
     margin-left: 16px;
     margin-top: 12px;
 }
-.postHeadName{
+
+.postHeadName {
     margin-top: -44px;
     margin-left: 70px;
     width: 48px;
     height: 10px;
     color: black;
-
 }
 
-
-.postHeadName label{
+.postHeadName label {
     font: size 14px;
 }
 
-.postHeadNum{
+.postHeadNum {
     margin-left: 70px;
     width: 80px;
     height: 13px;
     margin-top: 7px;
-
 }
-.postHeadNum label{
+
+.postHeadNum label {
     font-size: 12px;
     color: var(--grey);
 }
-.postHeadWeek{
+
+.postHeadWeek {
     margin-left: 70px;
     width: 15px;
     height: 10px;
-
 }
-.postHeadWeek label{
+
+.postHeadWeek label {
     font-size: 12px;
     color: var(--grey);
 }
+
 .postHeadDot {
     margin-left: 88px;
     width: 3px;
     height: 16px;
     margin-top: -23px;
-
 }
-.postHeadDot label{
+
+.postHeadDot label {
     font-size: 23px;
     color: var(--grey);
 }
 
-.postHeadSym{
+.postHeadSym {
     margin-left: 95px;
     margin-top: -3px;
 }
 
-.postHeadSym i{
+.postHeadSym i {
     font-size: 15px;
     color: var(--grey);
 }
-.postHead3Dot{
+
+.postHead3Dot {
     margin-top: -55px;
-    margin-left: 492px;}
-.postHead3Dot i{
-  font-size: 30px;
-  color: var(--grey);
+    margin-left: 492px;
 }
+
+.postHead3Dot i {
+    font-size: 30px;
+    color: var(--grey);
+}
+
+
 /* post haed ends here */
 
+
 /* post text */
-.postContent{
+
+.postContent {
     height: 60px;
     padding-left: 10px;
-    padding-right: 6px;}
-.postImage img{
+    padding-right: 6px;
+}
+
+.postImage img {
     width: 540px;
     height: 675px;
 }
+
+
 /* post text ends here */
 
+
 /* post notification starts here */
-.postNot{width:508px;
-height: 35px;
-margin-left: 16px;
-border-bottom: 2px solid whitesmoke;}
 
-.postNotIcon{
-    width:432.3px;
-height: 18px;}
-
-.postNotIconimg{width: 32px;
-height: 16px;
-padding-top: 8;}
-
-    .postNotIconlabel {
-        cursor: pointer;
-        font-size: 12px;
-        color: var(--grey);
-        margin-left: 46px;
-        margin-top: -11px;
-
+.postNot {
+    width: 508px;
+    height: 35px;
+    margin-left: 16px;
+    border-bottom: 2px solid whitesmoke;
 }
-.postNotIconlabel:hover{
+
+.postNotIcon {
+    width: 432.3px;
+    height: 18px;
+}
+
+.postNotIconimg {
+    width: 32px;
+    height: 16px;
+    padding-top: 8;
+}
+
+.postNotIconlabel {
+    cursor: pointer;
+    font-size: 12px;
+    color: var(--grey);
+    margin-left: 46px;
+    margin-top: -11px;
+}
+
+.postNotIconlabel:hover {
     text-decoration: underline;
     color: var(--blu);
 }
-.comments{    cursor: pointer;
+
+.comments {
+    cursor: pointer;
     font-size: 13px;
     color: var(--grey);
     margin-left: 437px;
     margin-top: -5px;
 }
-.comments:hover{
+
+.comments:hover {
     text-decoration: underline;
     color: var(--blu);
 }
+
+
 /* post notification ends here */
 
-.postReaction{
+.postReaction {
     padding-top: 10;
     width: 540px;
     height: 60px;
-
-
 }
-.like{
+
+.like {
     height: 48px;
     width: 118px;
     margin-left: 9px;
@@ -667,10 +701,12 @@ padding-top: 8;}
     color: var(--grey);
     cursor: pointer;
 }
-.like:hover{
-background-color:whitesmoke;
+
+.like:hover {
+    background-color: whitesmoke;
 }
-.comment{
+
+.comment {
     height: 48px;
     width: 155px;
     margin-left: 127px;
@@ -681,12 +717,13 @@ background-color:whitesmoke;
     justify-content: center;
     color: var(--grey);
     cursor: pointer;
-    
 }
-.comment:hover{
-    background-color:whitesmoke;
-    }
-.share{
+
+.comment:hover {
+    background-color: whitesmoke;
+}
+
+.share {
     height: 48px;
     width: 128px;
     margin-left: 282px;
@@ -698,10 +735,13 @@ background-color:whitesmoke;
     color: var(--grey);
     cursor: pointer;
 }
-.share:hover{
-    background-color:whitesmoke;
-    }
-.send{height: 48px;
+
+.share:hover {
+    background-color: whitesmoke;
+}
+
+.send {
+    height: 48px;
     width: 122px;
     margin-left: 410px;
     margin-top: -48px;
@@ -710,24 +750,29 @@ background-color:whitesmoke;
     align-items: center;
     justify-content: center;
     color: var(--grey);
-    cursor: pointer;}
+    cursor: pointer;
+}
 
-    .send:hover{
-        background-color:whitesmoke;
-        }
+.send:hover {
+    background-color: whitesmoke;
+}
+
 
 /* post div ends here */
 
+
 /* sugessions div start here */
-.sugDiv{width: 540px;
+
+.sugDiv {
+    width: 540px;
     height: 275px;
     background-color: white;
     border-radius: 10px;
     margin-left: 465px;
-    margin-top: 10px}
+    margin-top: 10px
+}
 
-
-.sugFeedDiv{
+.sugFeedDiv {
     height: 41px;
     width: 508px;
     margin-left: 16px;
@@ -739,35 +784,36 @@ background-color:whitesmoke;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid whitesmoke;
-
 }
-.sugFeedDiv h3{font-size: 14px;
+
+.sugFeedDiv h3 {
+    font-size: 14px;
     color: var(--grey);
     font-weight: 100;
     cursor: text;
+}
 
-}  
-
-
-
-.sug3Dot i{font-size: 30px;
+.sug3Dot i {
+    font-size: 30px;
     color: var(--grey);
     cursor: pointer;
     border-radius: 49.9%;
-
 }
 
-.sug3Dot i:hover{
+.sug3Dot i:hover {
     background-color: whitesmoke;
 }
 
+
 /* suggestion people */
-.sugPeopleDiv{
+
+.sugPeopleDiv {
     width: 540px;
     height: 62px;
     border-bottom: 2px solid whitesmoke;
 }
-.sugPeopleDiv img{
+
+.sugPeopleDiv img {
     height: 48px;
     width: 48px;
     height: 48px;
@@ -777,28 +823,32 @@ background-color:whitesmoke;
     border-radius: 49.9%;
     cursor: pointer;
 }
-.sugNameDiv
-{margin-top: -41px;
+
+.sugNameDiv {
+    margin-top: -41px;
     margin-left: 71px;
 }
-.sugNameDiv h3{font-size: 12px;
+
+.sugNameDiv h3 {
+    font-size: 12px;
     color: var(--grey);
-cursor: pointer;}
-
-
-
-.sugNameDiv label{font-size: 14px;
-        color: var(--dgrey);
-    cursor: pointer;}
-.sugNameDiv label:hover{
-
-    text-decoration: underline;
-    color:var(--blu);
+    cursor: pointer;
 }
 
-.sugIcon{
+.sugNameDiv label {
+    font-size: 14px;
+    color: var(--dgrey);
+    cursor: pointer;
+}
+
+.sugNameDiv label:hover {
+    text-decoration: underline;
     color: var(--blu);
-    width:82px;
+}
+
+.sugIcon {
+    color: var(--blu);
+    width: 82px;
     height: 32px;
     margin-left: 445px;
     margin-top: -31px;
@@ -807,13 +857,16 @@ cursor: pointer;}
     align-items: center;
     justify-content: center;
     cursor: pointer;
-}        
-.sugIcon:hover{
-    background-color:#d9e6ff;
 }
+
+.sugIcon:hover {
+    background-color: #d9e6ff;
+}
+
+
 /* discover more */
 
-.sugMoreDiv{
+.sugMoreDiv {
     color: var(--dgrey);
     margin-left: 0px;
     margin-top: 0px;
@@ -826,92 +879,108 @@ cursor: pointer;}
     justify-content: space-around;
     cursor: pointer;
 }
-.sugMoreDiv label{
+
+.sugMoreDiv label {
     cursor: pointer;
 }
-.sugMoreDiv label:hover{
-    background-color: whitesmoke;
-}
-.sugMoreDiv:hover{
+
+.sugMoreDiv label:hover {
     background-color: whitesmoke;
 }
 
+.sugMoreDiv:hover {
+    background-color: whitesmoke;
+}
 
 
 /* sugessions div ends here */
 
 
 /* footer div start here */
-.footerDiv{}
+
+.footerDiv {}
+
 
 /* footer div ends here */
+
 
 /* news div starts here  */
 
 .newsDiv {
-    width:315px;
+    width: 315px;
     height: 325;
     background-color: white;
     border-radius: 10px;
     margin-top: -4094px;
     margin-left: 1031px;
 }
-    
-.newsHeadDiv{
+
+.newsHeadDiv {
     width: 275px;
     height: 24px;
     background-color: white;
     padding-top: 10px;
     margin-left: 15px;
 }
-.newsHeadDiv h3{
+
+.newsHeadDiv h3 {
     font-size: 18px;
     color: black;
     cursor: text;
 }
-.newsIconDiv{
+
+.newsIconDiv {
     height: 16px;
     width: 16px;
     margin-left: 279px;
     margin-top: -23px;
 }
-.newsIconDiv i{
+
+.newsIconDiv i {
     color: black;
 }
+
+
 /* news content div */
-.newsContentDiv{
+
+.newsContentDiv {
     width: 283px;
     height: 44px;
-  
     margin-left: 30px;
     margin-top: 10px;
 }
-.newsContentDiv li{
+
+.newsContentDiv li {
     font-size: 16px;
     color: black;
     cursor: text;
 }
-.newsTimeDiv{
-    width: 52px;
 
+.newsTimeDiv {
+    width: 52px;
 }
-.newsTimeDiv label{
+
+.newsTimeDiv label {
     font-size: 12px;
     color: var(--grey);
     cursor: text;
 }
 
-.newsDotDiv{
+.newsDotDiv {
     margin-top: -14px;
-    margin-left: 52px;}
+    margin-left: 52px;
+}
 
-.newsDotDiv li{
+.newsDotDiv li {
     font-size: 12px;
     color: var(--grey);
-    cursor: text;}
+    cursor: text;
+}
+
 
 /* showmore div */
-.showMoreDiv{
+
+.showMoreDiv {
     width: 106px;
     height: 24px;
     margin-left: 25px;
@@ -920,9 +989,11 @@ cursor: pointer;}
     align-items: center;
     cursor: pointer;
 }
-.showMoreDiv:hover{
+
+.showMoreDiv:hover {
     background-color: whitesmoke;
 }
+
 
 /*news div ends here  */
 
@@ -930,14 +1001,16 @@ cursor: pointer;}
 /* ad div  start here */
 
 .adDiv {
-    width: 315px;;
+    width: 315px;
+    ;
     height: 250px;
-    background-color:white;
+    background-color: white;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 1031px;
 }
-.adDiv img{
+
+.adDiv img {
     width: 300px;
     height: 250px;
     padding-left: 7.5px;
@@ -946,25 +1019,28 @@ cursor: pointer;}
 
 /* ad div  end here */
 
+
 /* terms div start here */
-.termsDiv{
-    width: 315px;;
+
+.termsDiv {
+    width: 315px;
+    ;
     height: 129px;
-    background-color: rgb(243, 242, 239);;
+    background-color: rgb(243, 242, 239);
+    ;
     margin-top: 10px;
     margin-left: 1031px;
-   
 }
-.termsContentDiv{
+
+.termsContentDiv {
     height: 97px;
     width: 267px;
     margin-left: 24px;
     padding-top: 10px;
     background-color: rgb(243, 242, 239);
-    
-
 }
-.term1{
+
+.term1 {
     width: 267px;
     height: 24px;
     display: flex;
@@ -973,23 +1049,29 @@ cursor: pointer;}
     align-items: center;
 }
 
-.termText{
+.termText {
     font-size: 14px;
     color: var(--dgrey);
     cursor: pointer;
 }
-.termText:hover{
+
+.termText:hover {
     text-decoration: underline;
     color: var(--blu);
 }
-.termsDiv img{
+
+.termsDiv img {
     margin-left: 20px;
     margin-top: 10px;
 }
 
+
 /* terms div ends here */
+
+
 /* footer div */
-.footerDiv{
+
+.footerDiv {
     width: 136px;
     height: 40px;
     border: 2px solid var(--blu);
@@ -1002,7 +1084,7 @@ cursor: pointer;}
     margin-left: 654px;
 }
 
-.footerDiv label{
+.footerDiv label {
     font-size: 15px;
     font-weight: bolder;
     color: var(--blu);
